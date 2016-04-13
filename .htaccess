@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+RewriteRule ^/?teste/([a-zA-Z]+)$&?$ aula7/aula7.php?param=$1&id=$2 [L,QSA]
+
